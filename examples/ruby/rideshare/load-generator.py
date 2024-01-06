@@ -15,7 +15,7 @@ VEHICLES = [
 ]
 
 if __name__ == "__main__":
-    print(f"starting load generator")
+    print("starting load generator")
     time.sleep(3)
     while True:
         host = HOSTS[random.randint(0, len(HOSTS) - 1)]
