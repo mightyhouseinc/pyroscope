@@ -13,7 +13,7 @@ VEHICLES = [
 ]
 
 if __name__ == "__main__":
-    print(f"starting load generator")
+    print("starting load generator")
     time.sleep(15)
     print('done sleeping')
     while True:
